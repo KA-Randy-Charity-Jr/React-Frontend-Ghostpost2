@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+html {
+  flex: fkex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: inherit;
+  flex: auto;
+  background-color: rgba(83, 13, 148, 0.911);
+}
+body {
+  flex-direction: column;
+  flex-wrap: inherit;
+}
+.ghostpost {
+  background-color: rgba(156, 22, 105, 0.726);
+  font-family: Impact, Charcoal, sans-serif;
+  width: 25%;
+  box-shadow: 3px 9px;
 }
 
-.App-link {
-  color: #61dafb;
+.container2 {
+  flex-direction: column-reverse;
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: rgba(83, 13, 148, 0.911);
+  background-image: url("./gengar2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  box-shadow: 0px 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.head {
+  background-color: rgba(49, 9, 29, 0.685);
+  height: 30%;
+  width: 100%;
+}
+a {
+  color: black;
 }

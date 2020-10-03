@@ -1,3 +1,5 @@
+BACKEND REPO https://github.com/KA-Randy-Charity-Jr/Django-backend-ghostpost2
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
